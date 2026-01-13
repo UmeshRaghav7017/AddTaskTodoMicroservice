@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: azure-application-gateway
   rules:
-    - host: add-task-api.my-app-gateway.shop
+    - host: add-task-api.frontendapp.site
       http:
         paths:
           - pathType: Prefix
